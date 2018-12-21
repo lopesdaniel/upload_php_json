@@ -19,7 +19,7 @@
     }
 
     //Agora imprimo na tela o JSON com a lista de arquivos encontrados na SuaPasta.
-    echo json_decode($result_json);
+    echo json_encode($result_json);
 
     //Após todo esse processamento, fecho a instância criada anteriormente.
     $diretorio->close();
