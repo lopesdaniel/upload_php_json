@@ -1,10 +1,10 @@
 <?php 
 
     //Substitua "SuaPasta" pelo caminho da sua pasta.
-    $_UPLOAD['diretorio'] = "SuaPasta";
+    $path = "SuaPasta";
 
     //Crio uma instância do diretório.
-    $diretorio  = dir($_UPLOAD['diretorio']);
+    $diretorio  = dir($path);
     $result_json = array();
 
     //Percorro o diretorio se existir conteúdo.
